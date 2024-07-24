@@ -1,4 +1,5 @@
 using Assets.Dino.Scripts;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,6 +18,11 @@ public class Dino : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+    }
+
+    void FixedUpdate()
+    {
+        player.UpdateAnimationState(UserInput.GetAnimationState());
     }
 }
