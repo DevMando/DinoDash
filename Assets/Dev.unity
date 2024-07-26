@@ -410,9 +410,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1404270550556417414, guid: 1c20dd89e1365da4387df8751f5bb80d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404270550556417414, guid: 1c20dd89e1365da4387df8751f5bb80d, type: 3}
+      propertyPath: scrollingObjectPrefab
+      value: 
+      objectReference: {fileID: 8912120609400600582, guid: 1c20dd89e1365da4387df8751f5bb80d, type: 3}
     - target: {fileID: 6705798737646241477, guid: 1c20dd89e1365da4387df8751f5bb80d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0612094
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 6705798737646241477, guid: 1c20dd89e1365da4387df8751f5bb80d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -467,6 +475,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3551118531036840382, guid: 8f1b1c02a6637ea409438f0d73eeded5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3630672994726261982, guid: 8f1b1c02a6637ea409438f0d73eeded5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.51
